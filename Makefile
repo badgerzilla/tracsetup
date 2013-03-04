@@ -9,5 +9,6 @@ build: extract
 extract: prereq
 
 prereq:
-	echo Done
+	wget http://download.edgewall.org/trac/Trac-1.0.1.tar.gz
+
 
